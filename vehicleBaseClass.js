@@ -1,4 +1,4 @@
-class Vehicle {
+class Vehicle { //! The "JS-mercurySedan as access only to this class-Arguments and not to the 'Methods'"
     constructor(make, model, year, color, mileage) {
         this.make = make;
         this.model = model;
@@ -20,6 +20,7 @@ class Vehicle {
             console.log("engine cannot start...");
         }
     }
+
     accelerate() {
         if (this.started) {
             if (this.fuel > 0) {
@@ -33,6 +34,7 @@ class Vehicle {
             alert("You need to start the engine first.");
         }
     }
+
     decelerate() {
         if (this.started) {
             if (this.fuel > 0) {
@@ -51,6 +53,7 @@ class Vehicle {
             alert("You need to start the engine first.");
         }
     }
+    
     stop() {
         this.started = false;
     }

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        
+        {
+            "type": "chrome",
+            "name": "index.js",
+            "request": "launch",
+            "url": "index.js"
+        }
+    ]
+}
