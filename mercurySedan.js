@@ -1,10 +1,7 @@
 //this includes the vehicle class as a module
 const VehicleModule = require("./vehicleBaseClass").Vehicle
 
-//this shows how to call from this module...
-// let v = new VehicleModule.Vehicle("Mercury", "Sedan", "1965", "color", "mileage");
-// let start = new VehicleModule.Vehicle()
-// console.log(v.make, v.year)
+//! TODO: I need to learn how to make the code short with "cGPT"!!!
 
 // * My code:
 class mercurySedan extends VehicleModule {

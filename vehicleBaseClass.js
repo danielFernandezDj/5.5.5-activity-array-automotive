@@ -1,4 +1,5 @@
-class Vehicle { //! The "JS-mercurySedan as access only to this class-Arguments and not to the 'Methods'"
+//? TO.ME: The "JS-mercurySedan as access only to this class-Arguments and not to the 'Methods'"
+class Vehicle { 
     constructor(make, model, year, color, mileage) {
         this.make = make;
         this.model = model;
